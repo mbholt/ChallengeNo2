@@ -1,0 +1,129 @@
+:root {
+    --primary-color: ; 
+    --secondary-color: ;
+    --tertiary-color: ;    
+}
+
+* {
+
+}
+
+body {
+
+}
+
+/* Header Styles */
+header {
+
+}
+
+h1 {
+
+}
+
+
+/* Hero Styles */
+.hero {
+
+}
+
+h2 {
+
+}
+
+
+/* About Me Styles */
+.bio {
+
+}
+
+h3 {
+
+}
+
+.bio-text {
+
+}
+
+.photo {
+
+}
+
+
+/* Projects Styles */
+.work {
+
+}
+
+h4 {
+
+}
+
+.projects {
+
+}
+
+h5 {
+
+}
+
+#project1 {
+
+}
+
+#project2 {
+
+}
+
+#project3 {
+
+}
+
+#project4 {
+
+}
+
+#project5 {
+
+}
+
+#project1, #project2, #project3, #project4, #project5:hover {
+    
+}
+
+/* Contact Styles */
+.contact {
+
+}
+
+h6 {
+
+}
+
+address {
+
+}
+
+.links {
+
+}
+
+/* Footer Styles */
+footer {
+
+}
+
+/* Media Query 1: Small Desktop and Smaller */
+@media screen and (max-width: 980px) {
+
+}
+
+/* Media Query 2: Tablet and Smaller */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* Media Query 3: Mobile Phone and Smaller */
+@media screen and (max-width: 575px) {
+    
+}
