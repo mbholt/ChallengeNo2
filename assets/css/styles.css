@@ -7,7 +7,7 @@ body {
 
 /* Header Styles */
 header {
-    padding: 0 0 0 0;
+    padding: 20px 35px;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: black;
@@ -23,7 +23,6 @@ h1 {
 /* Hero Styles */
 .hero {
     background-color: gray;
-    padding: 0 0 0 0;
     color: white;
     font-size: 28px;
 }
@@ -100,11 +99,11 @@ h5 {
 /* Contact Styles */
 .contact {
     color: black;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h6 {
-    font-size: 24px;
+
 }
 
 address {
@@ -117,10 +116,7 @@ address {
 
 /* Footer Styles */
 footer {
-    background-color: black;
-    columns: white;
-    font-size: 18px;
-    justify-content: center;
+
 }
 
 /* Media Query 1: Small Desktop and Smaller */
