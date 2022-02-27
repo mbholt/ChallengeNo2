@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio: Myles Holt</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
@@ -33,22 +34,24 @@
 
     <!-- About Me -->
     <section id="about-me" class="bio">
-        <h3>About Me</h3>
-
+        <div class="bioleft">
+            <h3>About Me</h3>
+            <!-- Photo -->
+            <div class="photo">
+                <img src="./assets/images/myles.jpeg" alt="Myles Holt and his dog (Gideon)" />
+            </div>
+        </div>
         <!-- Bio Text -->
-        <article class="bio-text">
+        <div class="bioright">
             <p>
-                The address farther six hearted hundred towards husband. Are securing off occasion remember daughter replying. Held that feel his see own yet. Strangers ye to he sometimes propriety in. She right plate seven has. Bed who perceive judgment did marianne.
+                The address farther six hearted hundred towards husband. Are securing off occasion remember daughter replying. Held that feel his see own yet. Strangers ye to he sometimes propriety in. She right plate seven has. Bed who perceive judgment did marianne.    
             </p>
-                Increasing impression interested expression he my at. Respect invited request charmed me warrant to. Expect no pretty as do though so genius afraid cousin. Girl when of ye snug poor draw. Mistake totally of in chiefly. Justice visitor him entered for. Continue delicate as unlocked entirely mr relation diverted in. Known not end fully being style house. An whom down kept lain name so at easy.
             <p>
-                Boy desirous families prepared reserved add ecstatic say. Replied joy age visitor nothing cottage. Mrs door paid led loud sure easy read. Hastily at perhaps as neither or ye fertile tedious visitor. Use fine bed none call busy dull when. Quiet ought match my right by table means. Principles up do in me favourable affronting. Twenty mother denied effect we to do on.
+                Increasing impression interested expression he my at. Respect invited request charmed me warrant to. Expect no pretty as do though so genius afraid cousin. Girl when of ye snug poor draw. Mistake totally of in chiefly. Justice visitor him entered for. 
             </p>
-        </article>
-
-        <!-- Photo -->
-        <div class="photo">
-            <img src="./assets/images/myles.jpeg" alt="Myles Holt and his dog (Gideon)" />
+            <p>
+                Boy desirous families prepared reserved add ecstatic say. Replied joy age visitor nothing cottage. Mrs door paid led loud sure easy read. Hastily at perhaps as neither or ye fertile tedious visitor. Use fine bed none call busy dull when quiet right by.
+            </p>
         </div>
     </section>
 
@@ -56,39 +59,40 @@
     <section id="projects" class="work">
         <h4>Projects</h4>
         <div class="projects">
-            <div id="project1">
+            <a class="project1" title="Link to Run Buddy" href="https://github.com/">
                 <div class="project-description">
                     <h5>Run Buddy</h5>
                     <p>HTML/CSS</p>
                 </div>
-            </div>
+            </a>
 
-            <div id="project2">
-                <div class="project-description">
-                    <h5>Yahtzee Score Optimizer</h5>
-                    <p>React/JavaScript/CSS</p>
-                </div>    
+            <div class="projects-middle">
+                <a class="project2" title="Link to Yahtzee Score Optimizer" href="https://github.com/">
+                    <div class="project-description">
+                        <h5>Yahtzee Score Optimizer</h5>
+                        <p>React/JavaScript/CSS</p>
+                    </div>
+                </a>
+                <a class="project3" title="Link to 4D Rhyming Dictionary" href="https://github.com/">
+                    <div class="project-description">
+                        <h5> 4D Rhyming Dictionary</h5>
+                        <p>MERN Stack</p>
+                    </div>    
+                </a>
             </div>
-
-            <div id="project3">
-                <div class="project-description">
-                    <h5>Rhyming Dictionary X-Treme</h5>
-                    <p>MERN Stack</p>
-                </div>    
-            </div>
-
-            <div id="project4">
-                <div class="project-description">
-                    <h5>Borsht Recipe Compendium</h5>
-                    <p>Node/IoT</p>
-                </div>    
-            </div>
-
-            <div id="project5">
-                <div class="project-description">
-                    <h5>Goose Phenotype Tracker</h5>
-                    <p>React/JavaScript/CSS</p>
-                </div>    
+            <div class="projects-bottom">
+                <a class="project4" title="Link to Goose Phenotype Tracker" href="https://github.com/">
+                    <div class="project-description">
+                        <h5>Goose Phenotype Tracker</h5>
+                        <p>React/JavaScript/CSS</p>
+                    </div>    
+                </a>
+                <a class="project5" title="Link to Borscht Recipe Compendium" href="https://github.com/">
+                    <div class="project-description">
+                        <h5>Borscht Recipe Compendium</h5>
+                        <p>Node/IoT</p>
+                    </div>    
+                </a>
             </div>
         </div>
     </section>
