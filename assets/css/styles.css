@@ -97,7 +97,7 @@ header nav ul li a:hover {
 .bioright {
     display: flex;
     justify-content: space-around;
-    align-items: top;
+    align-items: stretch; 
     font-size: 18px;
 }
 
@@ -135,7 +135,6 @@ header nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    justify-content: space space-around;
     margin: 10px;
     width: 90%;
     height: 95%;
@@ -162,7 +161,6 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space space-around;
     margin: 3px;
     width: 100%;
     flex: 0 32%;
@@ -172,7 +170,6 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space space-around;
     margin: 3px;
     width: 100%;
     flex: 0 32%;
